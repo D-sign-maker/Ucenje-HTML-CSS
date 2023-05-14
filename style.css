@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+background: linear-gradient(to bottom, #999966 1%, #ffff99 91%);
+	  font-family: 'Brush Script MT', cursive;
+
+}
+aside{
+	display: flex;
+}
+header{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 0px;
+	height: 50px;
+/*	margin-bottom: 50px;*/
+
+}
+
+.header1,.header2,.header3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width:33.33%;
+	color:white;
+	background-color: rgb(95, 92, 91);
+	
+}
+.moja_slika{
+	width:36px;
+	height: 45px;
+	border-radius: 25px;
+	margin-left: 8px;
+}
+.moja_slika:hover {
+	opacity:0.5;
+	cursor: pointer;
+
+}
+.header1{
+	display:flex;
+	justify-content: flex-start;
+}
+.header2{
+	gap:20%;
+}
+.o_meni:hover,.biografija:hover,.iskustva_i_projekti:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+.header3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:5px;
+
+}
+.glyphicon-search{
+	margin-top: 10px;
+
+}
+.search_bar{
+	border-radius: 9px;
+	padding-left:2px;
+}
+
+
+footer{
+	background-color: rgb(95, 92, 91);
+	height: 50px;
+	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top:70px;
+	
+	
+}
+.glyphicon-arrow-up{
+	margin-top: 3px;
+}
+.footer_lijevo{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap:10px;
+}
+.footer_desno{
+	display: flex;
+	justify-content: flex-end;
+	width: 10%;
+	padding-right: 0;
+}
+
+.gornji_dio{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+.gornji_dio_1{
+	display: flex;
+	flex-direction: column;
+	width:20%;
+}
+.gornji_dio_1 ul{
+	list-style-type: none;
+  margin-left: 5px;
+  display: block;
+
+}
+.gornji_dio_1 li{
+	 display: block;
+  width: 100px;
+  background-color: #dddddd;
+  border-radius: 20px;
+  margin:2px;
+  padding:2px;
+}
+
+
+
+.gornji_dio_2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:80%;
+	margin-right:300px;
+	
+}
+.mini_biografija{
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: flex-start;
+	gap:60px;
+	margin-left:70px;
+	margin-right: 70px;
+}
+.meni_kolona{
+	display: flex;
+	flex-direction: column;
+
+
+}
+.slika_u_biografiji{
+	width: 200px;
+	border-radius: 80px;
+	border: 1px solid inherit;
+}
+.maturski_rad{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+.text_maturki_rad{
+	margin-left:70px;
+	margin-right: 70px;
+	width: 80%;
+}
+.slika_maturskog{
+	margin-left:70px;
+	margin-right: 70px;
+	width: 20%;
+}
+.slika2{
+	width: 350px;
+	border-radius: 70px;
+}
+.obrazovanje{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left:70px;
+	margin-right: 70px;
+	gap:70px;
+
+}
+.tabela1{
+	width:50%;
+}
+
+
+.projekti{
+	display: flex;
+	flex-direction: row;
+	gap:70px;
+	width:100%;
+	
+
+}
+.projekat{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left:70px;
+	margin-right: 70px;
+	margin-bottom: 40px;
+	gap:30px;
+	width:50%;
+}
+.slika_projekta{
+	width:300px;
+
+}
+/* Kontakt forma ispod kopirana sa w3school*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+  margin: 300px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+
+.blog{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap:60px;
+	margin-bottom: 50px;
+	
+}
+.clanak1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left:70px;
+	gap: 40px;
+	width: 50%;
+}
+.clanak2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right:70px;
+	gap: 40px;
+	width: 50%;
+}
+
+.slika_bloga{
+	display: flex;
+	width: 300px;
+}
+.tabela_facebook tr,td,th{
+	padding:5px;
+}
+
+.galerija_kontakt_forma{
+	display: inline-flex;
+	width: 100%;
+
+}
+/* Galerija kopirana sa w3school i izmjenjena*/
+.galerija_slike {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.galerija_slike:hover {
+  border: 1px solid #777;
+}
+
+.galerija_slike img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

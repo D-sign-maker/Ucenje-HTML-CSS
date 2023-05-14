@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+background: linear-gradient(to bottom, #999966 1%, #ffff99 91%);
+	  font-family: 'Brush Script MT', cursive;
+
+}
+.galerija{
+	display: flex;
+
+}
+
+

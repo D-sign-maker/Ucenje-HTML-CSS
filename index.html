@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" href="style.css">
+	<title>Moja biografija</title>
+	<link rel="icon" href="avatar1.png" type="png">
+	<meta charset="utf-16">
+	
+</head>
+<body>
+
+<header>
+		<div class="header1">
+			<img class="moja_slika" src="dzenan.jpg">
+		</div>
+		<div class="header2">
+			<div class="o_meni">
+				<a href="OMeni.html"><strong><h4 style="color:white;">O meni</h4></strong></a>
+			</div>
+			<div class="biografija">
+				<a href="Biografija.html"><strong><h4 style="color:white;">Biografija</h4></strong></a>
+			</div>
+			<div class="iskustva_i_projekti">
+				<a href="#"><strong><h4 style="color:white;">Iskustva i projekti</h4></strong></a>
+
+			</div>
+		</div>
+		<div class="header3">
+			<input class="search_bar" type="search" placeholder="search"><p><span class="glyphicon glyphicon-search"></span></p>
+		</div>
+</header>
+
+
+<div class="gornji_dio">
+	<div class="gornji_dio_1" >
+		<ul>
+		  <li>
+		  	<a href="#nesto_o_meni">Nešto o meni</a></li>
+		  <li><a href="#maturskir">Maturski rad</a>
+		  </li>
+		  <li><a href="#obrazovanjeid">Obrazovanje</a></li>
+		  <li><a href="#projektiid">Projekti</a>
+		  </li>
+		   <li><a href="#blogid">Blog</a>
+		  </li>
+
+		</ul>
+
+
+
+	</div>
+	<div class="gornji_dio_2">
+		<strong>
+			<p style="font-size:60px; color: rgb(100, 92, 91);">Moj prvi projekat</p>
+		</strong>
+	</div>
+</div>
+
+
+
+<article>
+	<br>
+	<hr style="color:white;">
+	<h1 id="nesto_o_meni"style="text-align: center;">Nešto o meni</h1>
+	<div class="meni_kolona">
+		
+		<div class="mini_biografija">
+			<div>
+				<img class="slika_u_biografiji"src="dzenan.jpg" alt="Moja slika">
+				
+			</div>
+			<div>
+			<p>Zovem se Dženan Kišić. Rođen sam 21. Maja u Sarajevu gdje sam i odrastao. Volim plivanje, trčanje i iz hobija idem i u teretanu povremeno. Propagiram zdrav život i vodim se da bi se svi trebali baviti nekim sportom u slobodno vrijeme. 
+			Privlači me programiranje i taj stil života jer sam jako kreativan te mislim da na taj način mogu pokazati ono u čemu vidim svoju budućnost.. Mislim pozitivno i nastojim vidjeti u svemu ono što je dobro a na lošem raditi da bi se to ispravilo.
+			Volim raditi na sebi i mislim da koliko god bilo dobro učiti sam da je uvijek bolje učiti od nekoga ko je u tom području već ekspert.  </p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<hr style="color:white;">
+<h1 id="maturskir" style="text-align: center;">Maturski rad</h1>
+	<div class="maturski_rad">
+		<div class="text_maturki_rad">
+
+<h2>Poredenje različitih linijskih kodova sa
+aspekta njihove hardware-ske
+kompleksnosti i spektralne efikasnosti</h2>
+<br>
+
+		<p>
+			Zbog činjenice da je do danas predloženo mnogo različitih linijskih kodova, koji na različite
+načine prave kompromise izmeđdu često oprečnih zahtjeva za velikom spektralnom efikasnosti,
+velikom energetskom efikasnosti, malom hardware-skom kompleksnosti, mogucnosti da se na
+jednostavan način iz prijemnog signala izvrši ekstrakcija takta itd., u ovom radu je izvršena
+uporedna analiza 4 linijska koda, njihovih spektralnih karakteristika i hardware-skih realizacija
+Sa aspekta širine prvog loba najbolje su se pokazale NRZ varijante linijskih kodova koje u
+usporedbi sa RZ varijantama zauzimaju duplo manji spektar. Simulacijski u MATLAB-u su
+pokazane spektralne karakteristike u radu obradenih linijskih kodova. Pokazano je da se smanjenjem širine impulsa povecava širina spektra. Izgledi u vremenu razmatranih linijskih kodova
+sagledani su na osnovu rezultata programa napravljenih u MATLAB-u, iz kojih se može zaljuciti da RZ i Manchester imaju 2x veće širine 1. arkade od NRZ i AMI kodova, te su nepovoljniji
+od NRZ i AMI za aplikacije koje zahtjevaju što je moguce uži bandwith. Od svih obrađenih
+linijskih kodova izdvojio se AMI linijski kod čija je prva nula kao i u slučaju NRZ varijante
+unipolarnog linijskog koda na 1
+T
+, ali kod kojeg i nemamo DC komponentu, ali i kod kojeg NF
+komponente spektra nisu izražene u tolikoj mjeri kao kod unipolarnog formata kodiranja. Dok
+je Manchester pokazao najbolje sinhronizacijske osobine što je postignuto na štetu njegove širine osnovnog loba.
+Sa aspekta DC i NF komponenata koje nije moguce prenjeti ukoliko je u sistemu upotrijebljeno
+galvansko odvajanje najbolje osobine pokazali su AMI i Manchester linijski kod kod kojih nemamo DC komponente a i NF komponente su dosta potisnute. Dok kod unipolarnih linijskih
+kodova postoji DC komponenta, a i veliki dio spektra im je smješten u NF dijelu spektra.
+Sintezom i simulacijom u radu obradenih signala pokazana je njihova hardware-ska kompleksonost, od kojih su najjednostavniji za implementaciju unipolarni NRZ koder i dekoder. Radi
+same jednostavnosti pomenutog linijskog koda oba modula i linijski koder i dekoder su realizovani u vidu D-Flip Flopa upravljanim od strane Clock-a. Kao najkompleksniji sa aspekta
+hardware-ske realizacije su AMI koder i dekoder, upravo iz potrebe za upotrebom tri nivoa signala, ali i potrebe da se prilikom dekodiranja pamti prva polovina bit perioda.
+Izvršena je komparacija linijska kodera i dekodera sa aspekta hardwares-ska realizacija navedenih u svrhu ocuvanja cijene sistema što je niže moguće, te date su preporuke za upotrebu
+linijskih kodova.
+		</p>
+		</div>
+
+		<div class="slika_maturskog">
+			<img class="slika2" src="maturski.png" alt="Slika projekta">
+		</div>
+	</div>
+	<br>
+	<hr style="color:white;">
+<h1 id="obrazovanjeid" style="text-align: center;">Obrazovanje</h1>
+	<div class="obrazovanje">
+		
+		<div>
+			<div class="tabela1">
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">Ustanova</th>
+				      <th scope="col">Pocetak</th>
+				      <th scope="col">Kraj</th>
+				      <th scope="col">Zvanje</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>Osnovna skola Osman Nakas</td>
+				      <td>2005</td>
+				      <td>2014</td>
+				      <td>-----</td>
+
+				    </tr>
+				    <tr>
+				      <th scope="row">2</th>
+				      <td>Srednja elektrotehnicka skola u Sarajevu</td>
+				      <td>2014</td>
+				      <td>2019</td>
+				      <td>Elektrotehnicar racunarstva i informatike</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+		</div>
+		<div>
+			<p>Što se tiče obrazovanja pohađao sam osnovnu školu Osman Nakaš, te nakon toga upisao Srednju elektrotehničku školu u Sarajevu. Kroz cjelokupno školovanje bio sam odličan. Stekao sam zvanje elektrotehničar računarstva i informatike.
+			Nakon srednje škole upisao sam Prirodno-matematički fakultet koji trenutno studiram. </p></div>
+	</div>
+<br>
+	<hr style="color:white;">
+	<h1 id="projektiid" style="text-align: center;">Projekti</h1>
+	<div class="projekti">
+		<div class="projekat">
+		<img class="slika_projekta" src="majice.jpg" alt="Prvi projekat">	
+		<p>Prvi projekat započeo sam sa prijateljem sa kojim provodim puno vremena. Planiramo da pokrenemo brand koji će podržavati sve teme koje su osjetljive danas u društvu. Nešto poput "Black lives matter" ali ne konkretno samo to. Svaki mjesec teme majica bi se mijenjale i shodno tome i avatar ili ikonica na majici koja bi imala značenje koje se može pronaći na našoj stranici.</p>
+		</div>
+		<div class="projekat">
+			<img class="slika_projekta" src="stranice.jpg" alt="Drugi projekat">
+			<p>Planirao sam kad budem radio u svojoj struci da u slobodno vrijeme pravim nesto poput wixa. <br> Pravim prebuilt stranice spremne za prodaju shodno njihovoj namjeni.
+			Imam par drugova koji su zainteresovani da se isprobamo u tom poslu. <br> Zvuči zanimljivo kad nešto sam pokušavaš, ali kad je tu još neko onda zvuči lagano. <br>
+			 Plan je bio da svaki vikend uradimo po jednu stranicu ili neki responsive dizajn koji cemo moci koristiti u nekoj od tih stranica. Mislim da bi to bilo jako korisno te da bi se i prodavalo na Upworku.
+			</p>
+		</div>
+	</div>
+	<br>
+	<hr style="color:white;">
+	<h1 id="blogid" style="text-align: center;">Blog</h1>
+
+	<div class="blog">
+		<div class="clanak1">
+			
+				<div>
+					<h3>Roboti uče da se oslanjaju na zid kako ne bi pali</h3>
+				</div>
+					<div>
+						<img class="slika_bloga" src="https://static.klix.ba/media/images/vijesti/b_221201054.jpg?v=1" alt="Slika robota kako se oslanja na zid">
+					</div>
+					<div>
+					<p>
+					Riječ je o sistemu pod nazivom Damage Reflex, odnosno D-Reflex, koji je koristan u situacijama kada dođe do kvara ili oštećenja jedne noge. <br>U tim situcijama gubitka ravnoteže robot poput čovjeka koristi oslonac kako ne bi pao. Sistem baziran na nauralnoj mreži koristi "svoja iskustva" odnosno 882.000 simulacija kako bi brzo pronašao tačku na zidu koja će mu najvjerovatnije osigurati stabilnost. <br> Robot ne mora "znati" kako je oštećen te može pronaći oslonac otprilike brzo kao i čovjek. <br>
+					Link do direktnog članka: 
+					</p>
+					<a href="https://www.klix.ba/scitech/tehnologija/roboti-uce-da-se-oslanjaju-na-zid-kako-ne-bi-pali/221201054" target="_blank">Klix.ba</a>
+					</div>
+					<div>
+						<iframe width="520" height="420"
+						src="https://www.youtube.com/watch?v=hbuWr-ZNAtg&t=1s">
+						</iframe>
+					</div>
+		</div>
+
+		<div class="clanak2">
+			
+				
+					<h3>Meta kažnjena u Irskoj s 265 miliona eura zbog "curenja" podataka korisnika Facebooka
+				</h3>
+				
+					<div>
+						<img class="slika_bloga" src="https://static.klix.ba/media/images/vijesti/b_221129024.jpg?v=2" alt="Slika facebooka">
+					</div>
+					<div>
+					<p>
+					Razlog za kaznu je "curenje" podataka korisnika Facebooka iz 2021. godine zbog kojeg su ugroženi telefonski brojevi, lokacije i datumi rođenja 533 miliona ljudi koji su bili korisnici društvene mreže od 2018. do 2019. godine. <br>
+
+					DPC je započeo istragu 14. aprila 2021. godine povodom medijskih izvještaja o otkriću seta podataka, koji je postao dostupan na internetu. Istraga se odnosila na pitanja s poštivanjem obaveze o zaštiti podataka u Evropskoj uniji, a ustanovljeno je da se kompanija Meta toga nije pridržavala. Također, kompaniji je naređeno da u određenom roku poduzme mjere kako bi obrada podataka bila u skladu sa zakonom. <br>
+
+					S odlukom DPC-a su se složile i druge nadzorne vlasti u EU. Ali i dalje facebook nastavlja sa rastom u svakom aspektu. <br>
+					Link do direktnog članka: 
+					</p>
+					<a href="https://www.klix.ba/scitech/tehnologija/meta-kaznjena-u-irskoj-s-265-miliona-eura-zbog-curenja-podataka-korisnika-facebooka/221129024" target="_blank">Klix.ba</a>
+					</div>
+					<div>
+						<table class="tabla_facebook">
+						  <tr>
+						    <th>Godina</th>
+						    <th>Zarada</th>
+						    <th>Rast</th>
+						  </tr>
+						  <tr>
+						    <td>2018</td>
+						    <td>$55,838</td>
+						    <td>38%</td>
+						  </tr>
+						  <tr>
+						     <td>2019</td>
+						    <td>$70,697</td>
+						    <td>27%</td>
+						    <tr>
+						     <td>2020</td>
+						    <td>$85,965</td>
+						    <td>22%</td>
+						  </tr>
+						  <tr>
+						     <td>2021</td>
+						    <td>$117,929</td>
+						    <td>37%</td>
+						  </tr>
+						  </tr>
+						</table>
+					</div>
+		</div>
+		
+</article>
+<aside>
+	<br>
+	<hr style="color:white;">
+
+<hr style="color:white;">
+	<div class="galerija_kontakt_forma">
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika1.jpg">
+		    <img src="galerija1/gslika1.jpg" alt="Lili, Ismirov pas" width="600" height="400">
+		  </a>
+		  <div class="desc">Lili, pas mog dobrog druga, svako jutro poslije doručka</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika2.jpg">
+		    <img src="galerija1/gslika2.jpg" alt="Privjesak" width="600" height="400">
+		  </a>
+		  <div class="desc">Privjesak-poklon</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika3.jpg">
+		    <img src="galerija1/gslika3.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Random mačka s vratnika</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika4.jpg">
+		    <img src="galerija1/gslika4.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Slika proslijeđena od komšinice Ilme uslikana na nekom od studentskih pohoda</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika5.jpg">
+		    <img src="galerija1/gslika5.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Random mačka - Golden hour</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika6.jpg">
+		    <img src="galerija1/gslika6.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Privjesak druga Tita na Ilmin način</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika7.jpg">
+		    <img src="galerija1/gslika7.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Vrana koja zna sta hoće</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika8.jpg">
+		    <img src="galerija1/gslika8.jpg" alt="Northern Lights" width="600" height="400">
+		  </a>
+		  <div class="desc">Privjesak-miris</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika9.jpg">
+		    <img src="galerija1/gslika9.jpg" alt="Macka na planini" width="600" height="400">
+		  </a>
+		  <div class="desc">Pohodi sa mačkom</div>
+		</div>
+
+		<div class="galerija_slike">
+		  <a target="_blank" href="galerija1/gslika10.jpg">
+		    <img src="galerija1/gslika10.jpg" alt="Zalazak sunca" width="600" height="400">
+		  </a>
+		  <div class="desc">Domaći zalazak sunca</div>
+		</div>
+	
+</div>	
+<br>
+
+
+</aside>
+<a href="galerija.html"><h3 style="float: right;">Ostatak galerije..</h3></a>
+
+
+
+<br>
+<br>
+
+
+<div class="kontakt_forma" stz >
+			<!-- Kontakt forma kopirana sa w3school i izmjenjena -->
+			<div class="container"style="width:550px;background-color:grey;">
+		  <form action="action_page.php">
+
+		    <label for="fname">Ime</label>
+		    <input type="text" id="fname" name="Ime" placeholder="ime...">
+
+		    <label for="lname">Prezime</label>
+		    <input type="text" id="lname" name="Prezime" placeholder="prezime...">
+
+		  	<label for="email">Email</label>
+		    <input type="text" placeholder="email..." name="email" id="email" required>
+
+		    <label for="naslov">Naslov</label>
+		    <input type="text" id="naslov" name="Naslov" placeholder="naslov...">
+
+		    <label for="subject">Sadrzaj</label>
+		    <textarea id="sadrzaj" name="Sadrzaj" placeholder="napisite nesto..." style="height:100px"></textarea>
+
+		    <input type="submit" value="Posalji">
+
+  		</form>
+		</div>
+		</div>
+
+
+
+<footer> 
+
+<div class="footer_lijevo">
+	<div>
+		<a href="index.html">
+          <span class="glyphicon glyphicon-arrow-up"></span>
+        </a>
+    </div>
+	<div>
+	<a href="https://www.facebook.com/kisic.dzenan">Facebook</a>
+	</div>
+	<div>
+		<a href="https://instagram.com/dzenoe?igshid=YmMyMTA2M2Y=">Instgram</a>
+	</div>
+ </div>
+
+ <div class="footer_desno">
+	   
+		<p style="color:black;">11.11.2022 &copy; </p>	
+</div>
+		
+
+    </footer>
+</body>
+</html>
